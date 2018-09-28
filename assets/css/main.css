@@ -12,6 +12,23 @@
   padding: 25px;
 }
 
+.skillsBox {
+  height: 200px;
+  width: 200px;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillsItem {
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  background-color: rgb(246, 241, 234);
+}
+
 .skillsLabel {
   margin-bottom: 0px;
 }
@@ -23,10 +40,10 @@
 }
 
 .skillsImages {
+  min-width: 200px;
   max-width: 150px;
-  max-height: 150px;
+  max-height: 200px;
   border-radius: 150%;
-  padding: 15px;
 }
 
 .profilePic {
