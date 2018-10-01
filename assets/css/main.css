@@ -37,14 +37,24 @@
   max-width: 150px;
   max-height: 150px;
   border-radius: 150%;
+  border: 2px solid #FF533D;
 }
 
 .skillsImages {
   min-width: 200px;
   max-width: 150px;
   max-height: 200px;
-  border-radius: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
+/* .skillsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 .profilePic {
   margin: 50px;
@@ -65,7 +75,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+  font-family: 'Montserrat', sans-serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -2590,26 +2600,28 @@ input, select, textarea {
 		}
 
 			.features li:nth-child(1) {
-				background-image: url("https://images.unsplash.com/photo-1529117827754-d7ee6b589c71?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=942fa521cfa09c2fb4421ba212ed4278&auto=format&fit=crop&w=1653&q=80");
+				background-image: url("../../images/cosProject.png");
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
 			}
 
 			.features li:nth-child(2) {
-        background-image: url("https://cdn-images-1.medium.com/max/1600/1*I8HNmgyVrs_QeotFcTmUIg.jpeg");
+        background-image: url("../../images/resolutProject.png");
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
       }
 
 			.features li:nth-child(3) {
-        background-image: url("../../images/cosProject.png");
+        background-image: url("../../images/cordProject.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
       }
 
 			.features li:nth-child(4) {
-        background-image: url("../../images/resolutProject.png");
+        background-image: url("../../images/dumpTrumpProject.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -3403,7 +3415,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #FF533D;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
