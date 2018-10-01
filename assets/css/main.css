@@ -12,6 +12,14 @@
   padding: 25px;
 }
 
+#skills {
+  background-color: #FF533D;
+}
+
+
+.orange {
+    background-color: #FF533D;
+}
 .skillsBox {
   height: 200px;
   width: 200px;
